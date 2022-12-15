@@ -16,6 +16,6 @@ for (const folder of functionFolders) {
     require(`./src/functions/${folder}/${file}`)(client);
 }
 
-client.handleEvents();
+client.handleCommands();
 client.handleEvents();
 client.login(token);
